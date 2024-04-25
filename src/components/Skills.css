@@ -1,0 +1,138 @@
+.cursor {
+    width: 20px;
+    height: 20px;
+    border: none;
+    position: absolute;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    background-color: #222;
+    /* Dark background color */
+    border-radius: 50%;
+    /* Circular shape */
+    pointer-events: none;
+}
+
+.cursor::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: #fff;
+    /* White border color */
+    border-radius: 50%;
+    opacity: .5;
+    /* Lower opacity for a darker effect */
+    top: 5px;
+    left: 5px;
+}
+
+.expand {
+    animation: cursorAnim3 0.5s forwards;
+}
+
+@keyframes cursorAnim3 {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(7);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.skill-bx {
+    background-color: #222;
+    border: 2px solid #0b1c43;
+    /* Outline box */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    position: relative;
+    /* Added for pseudo-elements */
+}
+
+.skill-bx:before,
+.skill-bx:after {
+    content: '';
+    position: absolute;
+    width: calc(100% + 4px);
+    /* Adjusted width for outline */
+    height: calc(100% + 4px);
+    /* Adjusted height for outline */
+    border: 2px solid #854545;
+    /* Outline box */
+    border-radius: 12px;
+    /* Adjusted border-radius */
+    top: -2px;
+    /* Adjusted position */
+    left: -2px;
+    /* Adjusted position */
+    transition: transform 0.3s ease;
+    z-index: -1;
+}
+
+.skill-bx:before {
+    transform: scale(1);
+}
+
+.skill-bx:after {
+    transform: scale(1);
+}
+
+.skill-bx:hover {
+    transform: translateY(-5px);
+}
+
+.skill-bx:hover:before {
+    transform: translate(-5px, -5px);
+    /* Move pseudo-element up and left */
+}
+
+.skill-bx:hover:after {
+    transform: translate(5px, 5px);
+    /* Move pseudo-element down and right */
+}
+
+.skill-bx h5 {
+    color: #994d4d;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.skill-bx ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-bx li {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.skill-heading {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
