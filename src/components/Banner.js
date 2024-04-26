@@ -70,6 +70,7 @@ export const Banner = () => {
         // Add your connect functionality here
     };
 
+
     return (
         <section className={`${styles.banner} banner id="home" `}>
             <Container>

@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
+
 export const Internship = () => {
     return (
         <section id="Internship">
@@ -47,8 +48,8 @@ export const Internship = () => {
                         />
                     </VerticalTimeline>
                 </div>
+
             </Container>
         </section>
     );
 }
-
