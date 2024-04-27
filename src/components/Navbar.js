@@ -6,6 +6,7 @@ import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import { useState, useEffect } from 'react';
+import { Download } from 'react-bootstrap-icons';
 
 
 export const Navbarr = () => {
@@ -57,7 +58,7 @@ export const Navbarr = () => {
                             <a href="https://github.com/triCKY05"><img src={navIcon2} alt="" /></a>
                             <a href="https://wa.me/8531864229"><img src={navIcon3} alt="" /></a>
                         </div>
-                        <button className='vvd' onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+                        <span className='navbar-text'><a href='Daniel-resume.pdf' download><button className="vvd px-3 py-2"><span><Download className='me-2' />Resume</span></button></a></span>
                     </span>
                 </Navbar.Collapse>
             </Container>

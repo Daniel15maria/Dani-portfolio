@@ -2,6 +2,8 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import cyber from '../assets/img/cs.png'
+import hackers from '../assets/img/h4u.png'
 
 
 export const Internship = () => {
@@ -17,6 +19,8 @@ export const Internship = () => {
                             contentStyle={{ background: '#282A3A', color: '#fff' }}
                             contentArrowStyle={{ borderRight: "7px solid #735F32" }}
                             iconStyle={{ background: "#781ACF", color: "#fff" }}
+                            icon={<img src={hackers} alt="icon" style={{ width: '100%', borderRadius: '50%', padding: '5px' }} />}
+
                         //    icon={<WorkIcon />}
                         >
                             <h3 className="vertical-timeline-element-title text-light">PENETRATION TESTER INTERN</h3>
@@ -32,6 +36,7 @@ export const Internship = () => {
                             contentStyle={{ background: '#282A3A', color: '#fff' }}
                             contentArrowStyle={{ borderRight: "7px solid #735F32" }}
                             iconStyle={{ background: " #781ACF", color: "#fff" }}
+                            icon={<img src={cyber} alt="icon" style={{ width: '100%', borderRadius: '50%', padding: '5px' }} />}
                         //    icon={<WorkIcon />}
                         >
                             <h3 className="vertical-timeline-element-title text-light">VULNERABLITY ASSESMENT INTERN</h3>
