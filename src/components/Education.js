@@ -2,6 +2,9 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import sjceit from '../assets/img/sjce.png'
+import campione from '../assets/img/campion.png'
+import mimss from '../assets/img/mims.jpeg'
 
 export const Education = () => {
     return (
@@ -19,6 +22,7 @@ export const Education = () => {
                             contentStyle={{ background: ' #781ACF', color: '#fff' }}
                             contentArrowStyle={{ borderRight: "7px solid #781ACF" }}
                             iconStyle={{ background: " #781ACF", color: "#fff" }}
+                            icon={<img src={sjceit} alt="icon" style={{ width: '100%', borderRadius: '50%', padding: '5px' }} />}
                         //    icon={<WorkIcon />}
                         >
                             <h3 className="vertical-timeline-element-title text-light">B.Tech - Information Technolog</h3>
@@ -34,6 +38,7 @@ export const Education = () => {
                             contentStyle={{ background: ' #781ACF', color: '#fff' }}
                             contentArrowStyle={{ borderRight: "7px solid #781ACF" }}
                             iconStyle={{ background: " #781ACF", color: "#fff" }}
+                            icon={<img src={campione} alt="icon" style={{ width: '100%', borderRadius: '50%', padding: '5px' }} />}
                         //    icon={<WorkIcon />}
                         >
                             <h3 className="vertical-timeline-element-title text-light">Campion Anglo-Indian Higher Secondary School</h3>
@@ -49,6 +54,7 @@ export const Education = () => {
                             contentStyle={{ background: ' #781ACF', color: '#fff' }}
                             contentArrowStyle={{ borderRight: "7px solid #781ACF" }}
                             iconStyle={{ background: " #781ACF", color: "#fff" }}
+                            icon={<img src={mimss} alt="icon" style={{ width: '100%', borderRadius: '50%', padding: '5px' }} />}
                         //    icon={<WorkIcon />}
                         >
                             <h3 className="vertical-timeline-element-title text-dark">Mary Immaculate Matriculation School</h3>
