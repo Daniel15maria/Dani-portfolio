@@ -4,6 +4,7 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import cyber from '../assets/img/cs.png'
 import hackers from '../assets/img/h4u.png'
+import karobar from '../assets/img/karo-intern.png'
 
 
 export const Internship = () => {
@@ -13,6 +14,24 @@ export const Internship = () => {
                 <div className='mt-4 d-flex justify-content-center'><h1>EXPERIENCE</h1></div>
                 <div className='my-4'>
                     <VerticalTimeline lineColor={"black"}>
+
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
+                            date="Oct 2022 - Aug 2023"
+                            contentStyle={{ background: '#282A3A', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: "7px solid #735F32" }}
+                            iconStyle={{ background: " #781ACF", color: "#fff" }}
+                            icon={<img src={karobar} alt="icon" style={{ width: '100%', borderRadius: '50%', padding: '5px' }} />}
+                        //    icon={<WorkIcon />}
+                        >
+                            <h3 className="vertical-timeline-element-title text-light mb-2">Flutter Developer Intern</h3>
+                            <h4 className="vertical-timeline-element-subtitle text-light small mt-2">
+                                Karobar Ai - StartUp
+                            </h4>
+
+
+
+                        </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
                             date="Jan 2024 - March 2024"
@@ -23,12 +42,11 @@ export const Internship = () => {
 
                         //    icon={<WorkIcon />}
                         >
-                            <h3 className="vertical-timeline-element-title text-light">PENETRATION TESTER INTERN</h3>
-                            <h4 className="vertical-timeline-element-subtitle text-light">
+                            <h3 className="vertical-timeline-element-title text-light mb-2">PENETRATION TESTER INTERN</h3>
+                            <h4 className="vertical-timeline-element-subtitle text-light small mt-2">
                                 HackersForYou
                             </h4>
-                            <p className='text-white-1000 fs-3'>• Web App Penetration testing <br />
-                                • Report creating</p>
+
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
@@ -39,12 +57,11 @@ export const Internship = () => {
                             icon={<img src={cyber} alt="icon" style={{ width: '100%', borderRadius: '50%', padding: '5px' }} />}
                         //    icon={<WorkIcon />}
                         >
-                            <h3 className="vertical-timeline-element-title text-light">VULNERABLITY ASSESMENT INTERN</h3>
-                            <h4 className="vertical-timeline-element-subtitle text-light">
+                            <h3 className="vertical-timeline-element-title text-light mb-2">VULNERABLITY ASSESMENT INTERN</h3>
+                            <h4 className="vertical-timeline-element-subtitle text-light small mt-2">
                                 CyberSapiens United LLP
                             </h4>
-                            <p className='text-white-1000 fs-3'>• Red Team projects and worked on finding potential threats <br />
-                                • Securing organisation’s websites</p>
+
                         </VerticalTimelineElement>
 
                         <VerticalTimelineElement
