@@ -17,7 +17,7 @@ export const Internship = () => {
 
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            date="Oct 2022 - Aug 2023"
+                            date="June 2024 - July 2024"
                             contentStyle={{ background: '#282A3A', color: '#fff' }}
                             contentArrowStyle={{ borderRight: "7px solid #735F32" }}
                             iconStyle={{ background: " #781ACF", color: "#fff" }}
