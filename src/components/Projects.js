@@ -75,7 +75,7 @@ export const Projects = () => {
             title: "KarobarAI",
             description: "A mobile application for a startup in IITM",
             imgUrl: karoba,
-            link: "https://jes-tiles.onrender.com/"
+            link: "https://github.com/Daniel15maria/Soc-application"
         },
     ];
 
