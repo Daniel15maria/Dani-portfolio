@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Dani-portfolio/static/css/main.c37cc14a.css",
-    "main.js": "/Dani-portfolio/static/js/main.65876ac0.js",
+    "main.js": "/Dani-portfolio/static/js/main.6625983b.js",
     "static/js/453.ace21015.chunk.js": "/Dani-portfolio/static/js/453.ace21015.chunk.js",
     "static/media/Task.png": "/Dani-portfolio/static/media/Task.8e71e90e1edec99fccf2.png",
     "static/media/color-sharp.png": "/Dani-portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -36,11 +36,11 @@
     "index.html": "/Dani-portfolio/index.html",
     "static/media/nav-icon1.svg": "/Dani-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.c37cc14a.css.map": "/Dani-portfolio/static/css/main.c37cc14a.css.map",
-    "main.65876ac0.js.map": "/Dani-portfolio/static/js/main.65876ac0.js.map",
+    "main.6625983b.js.map": "/Dani-portfolio/static/js/main.6625983b.js.map",
     "453.ace21015.chunk.js.map": "/Dani-portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c37cc14a.css",
-    "static/js/main.65876ac0.js"
+    "static/js/main.6625983b.js"
   ]
 }
